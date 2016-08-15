@@ -10,8 +10,8 @@
   <string name="input_hint">FB</string>
   <string name="input_prefill"></string>
   <string name="network_toast">Uh-oh! This app requires an internet connection</string>
-
-
+<string name="already">This stock is already saved!</string>
+<string name="fab">Add</string>
 
   <string name="network_error" translatable="false">Due to unavailability of internet, list may be empty or out of date.</string>
   <string name="title_activity_stock_detail" translatable="false">StockDetailActivity</string>

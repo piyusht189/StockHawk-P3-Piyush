@@ -14,8 +14,11 @@
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:gravity="left|center_vertical"
+      android:layout_marginStart="@dimen/start"
       tools:text="GOOG"
-      />
+      android:layout_marginEnd="@dimen/start"
+
+      android:layout_marginLeft="@dimen/start" />
   <LinearLayout
       android:layout_width="0dp"
       android:layout_height="wrap_content"
@@ -36,8 +39,8 @@
         style="@style/PercentChangeTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="3dp"
-        android:paddingRight="3dp"
+        android:paddingLeft="@dimen/changedimen"
+        android:paddingRight="@dimen/changedimen"
         tools:text="100%"
         />
   </LinearLayout>
